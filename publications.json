@@ -19,7 +19,7 @@
     "venue": "AAAI 2025 · Demonstration Track",
     "status": "已发表",
     "summary": "面向大语言模型与多模态模型的微调框架，支持训练、推理、评测与量化。",
-    "links": [{"label": "论文主页", "url": "https://ojs.aaai.org/index.php/AAAI/article/view/35383"}, {"label": "arXiv 预印本", "url": "https://arxiv.org/abs/2408.05517"}, {"label": "项目代码", "url": "https://github.com/modelscope/ms-swift"}]
+    "links": [{"label": "论文主页", "url": "https://ojs.aaai.org/index.php/AAAI/article/view/35383"}, {"label": "OpenReview", "url": "https://openreview.net/forum?id=GWwzMvKc6U"}, {"label": "arXiv 预印本", "url": "https://arxiv.org/abs/2408.05517"}, {"label": "项目代码", "url": "https://github.com/modelscope/ms-swift"}]
   },
   {
     "id": "twinkle-2026",
@@ -30,7 +30,7 @@
     "venue": "AAAI 2027 Demonstration Program",
     "status": "已投稿",
     "summary": "面向多租户后训练场景，提供可组合的训练服务基础设施。",
-    "links": [{"label": "OpenReview 主页", "url": "https://openreview.net/profile?id=%7EYunlin_Mao1"}, {"label": "项目代码", "url": "https://github.com/modelscope/twinkle"}]
+    "links": [{"label": "项目代码", "url": "https://github.com/modelscope/twinkle"}]
   },
   {
     "id": "lens-2026",
@@ -41,7 +41,7 @@
     "venue": "arXiv 2026 · AAAI 2027 投稿",
     "status": "预印本",
     "summary": "研究动态文档中的上下文搜索，通过探索潜在证据定位相关内容。",
-    "links": [{"label": "arXiv 预印本", "url": "https://arxiv.org/abs/2608.16185"}, {"label": "OpenReview 主页", "url": "https://openreview.net/profile?id=%7EYunlin_Mao1"}]
+    "links": [{"label": "arXiv 预印本", "url": "https://arxiv.org/abs/2608.16185"}]
   },
   {
     "id": "modelscope-2024",
@@ -52,7 +52,7 @@
     "venue": "AAAI 2025（2024 年投稿）",
     "status": "历史投稿",
     "summary": "从开源平台的角度讨论云原生模型即服务（Model-as-a-Service）。",
-    "links": [{"label": "OpenReview 主页", "url": "https://openreview.net/profile?id=%7EYunlin_Mao1"}]
+    "links": []
   },
   {
     "id": "alignment-2023",
@@ -63,7 +63,7 @@
     "venue": "ACM MM 2023",
     "status": "历史投稿",
     "summary": "研究通过弱监督学习对齐问题与图表信息的方法，用于图表问答。",
-    "links": [{"label": "OpenReview 主页", "url": "https://openreview.net/profile?id=%7EYunlin_Mao1"}]
+    "links": []
   },
   {
     "id": "finqa-2022",
@@ -74,6 +74,6 @@
     "venue": "arXiv / CoRR 2022",
     "status": "预印本",
     "summary": "结合细粒度检索与多个生成模型，完成金融文本和表格中的数值推理问答。",
-    "links": [{"label": "arXiv 预印本", "url": "https://arxiv.org/abs/2206.08506"}, {"label": "OpenReview 主页", "url": "https://openreview.net/profile?id=%7EYunlin_Mao1"}]
+    "links": [{"label": "arXiv 预印本", "url": "https://arxiv.org/abs/2206.08506"}, {"label": "OpenReview", "url": "https://openreview.net/forum?id=ykT3tW42L8"}]
   }
 ]

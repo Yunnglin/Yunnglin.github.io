@@ -18,7 +18,13 @@
 - **ModelScope**、**Alignment is Crucial**：保留本人提供的 OpenReview 投稿记录和年份。未找到可确认的正式录用信息，不将历史投稿标为已发表，也不将其描述为当前仍在审稿。
 - **FinQA**：[arXiv](https://arxiv.org/abs/2206.08506) 核实标题、作者和 2022 年预印本。OpenReview 的 CoRR 与 SUKI 同名条目合并成一项；未标成已录用 NAACL 主会或 workshop 论文。
 
-本次公开 OpenReview 页面及 API 遇到浏览器验证 / HTTP 403。对于检索未能独立刷新到的记录，采用本人提供的资料，链接指向个人资料页，不编造论文 forum ID。
+### OpenReview 论文链接核查（2026-10-21）
+
+- **SWIFT**：[OpenReview 论文页](https://openreview.net/forum?id=GWwzMvKc6U)，已读取官方页面并核对标题和完整作者列表。该页为 AAAI 2025 书目条目，保留原有出版社和 arXiv 链接。
+- **FinQA**：[OpenReview 论文页](https://openreview.net/forum?id=ykT3tW42L8)，从 [Lacuna 对应论文条目](https://lacuna.tiptreesystems.com/work/a-numerical-reasoning-question-answering-system-with-fine) 的 OpenReview 链接取得；通过浏览器验证后，已直接读取 OpenReview 论文页，核对标题、六位作者、CoRR 2022 年份，以及指向 arXiv:2206.08506 的 PDF 与 DOI 链接；保留原有 arXiv 链接。
+- **Twinkle、LENS、ModelScope、Alignment is Crucial**：通过浏览器验证后，未登录的作者页仅列出 FinQA；公开 API 返回 HTTP 403，搜索未取得其余四篇可确认的 forum ID。暂不展示这些条目的 OpenReview 按钮，不再使用作者主页替代论文页。保留已有的 arXiv 与项目代码链接，等待取得准确论文地址后补齐。
+
+作者的 OpenReview 主页入口保留在论文栏目上方及个人介绍中。未改变任何论文的作者、年份或发表状态。
 
 ## 开源项目
 
