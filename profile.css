@@ -4,3 +4,81 @@
 .hero h1.hero-name{font-size:clamp(58px,6.2vw,84px);line-height:1.12;letter-spacing:-3px;color:var(--accent);font-weight:650;margin-bottom:22px}.hero-tagline{font-size:30px;line-height:1.5;font-weight:500;letter-spacing:-.7px;margin:0 0 22px}
 @media(max-width:760px){.hero h1.hero-name{font-size:clamp(42px,10vw,60px);letter-spacing:-2px;margin-bottom:20px}.hero-tagline{font-size:26px;line-height:1.5;margin-bottom:20px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+/* Three peer projects, readable body text, and larger interaction targets. */
+.project-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
+.project { display: flex; flex-direction: column; }
+.project-visual { height: 244px; flex-shrink: 0; padding-inline: 20px; }
+.project-body { display: flex; flex: 1; flex-direction: column; padding: 24px 22px 20px; }
+.project h3 { font-size: 26px; }
+.project-subtitle { font-size: 15px; line-height: 1.8; min-height: 54px; margin-block: 16px 10px; }
+.project-description { font-size: 14px; min-height: 0; line-height: 1.9; margin-bottom: 18px; }
+.tags { margin-top: auto; }
+.tags span, .project-type { font-size: 11px; }
+.project-links { gap: 16px; margin-top: 22px; padding-top: 14px; flex-wrap: wrap; }
+.project-links a { font-size: 12px; min-height: 32px; gap: 6px; }
+.visual-label { font-size: 8px; letter-spacing: .6px; }
+.eval-demo { left: 7%; right: 7%; top: 56px; bottom: 27px; padding: 12px 14px; }
+.flow-row > span:nth-child(odd) { padding-inline: 5px; }
+.chart { height: 57px; }
+.chart-bars { gap: 8px; }
+.twinkle-demo { left: 9%; right: 9%; top: 53px; bottom: 25px; }
+.client-row, .backend-row { gap: 17px; }
+.swift-visual { background: var(--visual2); }
+.swift-brand { position: absolute; left: 8%; right: 8%; top: 72px; margin: 0; padding: 12px; background: #fff; border-radius: 4px; }
+.swift-brand img { display: block; width: 100%; height: auto; }
+.swift-visual-caption { position: absolute; inset: auto 16px 43px; margin: 0; text-align: center; color: var(--muted); font-size: 11px; }
+.filters { flex-wrap: wrap; }
+.filters button { min-height: 40px; font-size: 12px; }
+.theme-toggle, .menu-toggle { width: 44px; height: 44px; flex-shrink: 0; }
+.text-link, .academic-links a, .paper-links a, .profile-links a, .contact-email, .footer a { display: inline-flex; align-items: center; min-height: 32px; }
+.text-link, .paper-links, .academic-links { font-size: 13px; }
+.hero-intro { font-size: 15px; }
+.section-heading > p, .publication-intro, .focus-grid p, .about-copy p { font-size: 14px; }
+.paper-authors { font-size: 12px; }
+.paper-summary { font-size: 14px; }
+.paper-venue { font-size: 12px; }
+.paper-status, .publication-note { font-size: 11px; }
+.school-info p { font-size: 14px; }
+.school-en, .school-years { font-size: 12px; }
+.contact-email { font-size: 12px; }
+.about-copy p.about-muted { font-size: 14px; }
+
+@media (min-width: 1100px) {
+  .project-grid:has(.project[hidden]) { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (min-width: 761px) and (max-width: 1099px) {
+  .project-grid { grid-template-columns: 1fr; }
+  .project { display: grid; grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr); }
+  .project-visual { height: 100%; min-height: 300px; }
+  .project-subtitle { min-height: 0; }
+  .eval-demo { top: 50%; bottom: auto; height: 185px; transform: translateY(-50%); }
+  .twinkle-demo { top: 50%; bottom: auto; height: 190px; transform: translateY(-50%); }
+  .swift-brand { top: 50%; transform: translateY(-50%); }
+  .swift-visual-caption { bottom: 45px; }
+}
+@media (max-width: 760px) {
+  .project-grid { grid-template-columns: 1fr; }
+  .project-visual { height: 260px; }
+  .project-body { padding: 24px; }
+  .project-subtitle { min-height: 0; }
+  .eval-demo { left: 9%; right: 9%; top: 52px; bottom: 29px; }
+  .chart { height: 67px; }
+  .twinkle-demo { left: 12%; right: 12%; top: 56px; bottom: 30px; }
+  .swift-brand { top: 77px; }
+  .swift-visual-caption { bottom: 45px; }
+  .project-description, .focus-grid p, .about-copy p, .publication-intro { font-size: 14px; }
+  .paper-authors { font-size: 12px; }
+  .paper-summary { font-size: 14px; }
+  .paper-links { font-size: 12px; }
+  .paper-venue, .paper-status { font-size: 11px; }
+  .paper-year { font-size: 11px; }
+  .paper-filters button { font-size: 12px; padding: 8px 10px; }
+  .publication-note { font-size: 11px; }
+  .school-info { min-width: 0; padding-bottom: 27px; }
+  .school-info p { font-size: 14px; }
+  .school-en { font-size: 10px; }
+  .school-years { font-size: 11px; }
+  .contact-email { font-size: 12px; }
+  .filter-note { display: none; }
+}
