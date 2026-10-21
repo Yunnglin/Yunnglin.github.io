@@ -6,9 +6,9 @@
     "year": "2025",
     "type": "published",
     "venue": "NLPCC 2025",
-    "status": "会议论文",
-    "summary": "研究图表问答中的问题与图表对齐，通过弱监督学习连接语言问题与视觉信息。",
-    "links": [{"label": "论文 / DOI", "url": "https://link.springer.com/chapter/10.1007/978-981-95-3349-7_11"}]
+    "status": "已发表",
+    "summary": "通过弱监督学习对齐问题与图表信息，用于图表问答。",
+    "links": [{"label": "论文主页", "url": "https://link.springer.com/chapter/10.1007/978-981-95-3349-7_11"}]
   },
   {
     "id": "swift-2025",
@@ -17,9 +17,9 @@
     "year": "2025",
     "type": "published",
     "venue": "AAAI 2025 · Demonstration Track",
-    "status": "会议论文",
-    "summary": "面向大语言模型与多模态模型的一站式微调基础设施，连接训练、推理、评测与量化流程。",
-    "links": [{"label": "论文 / DOI", "url": "https://ojs.aaai.org/index.php/AAAI/article/view/35383"}, {"label": "arXiv", "url": "https://arxiv.org/abs/2408.05517"}, {"label": "代码", "url": "https://github.com/modelscope/ms-swift"}]
+    "status": "已发表",
+    "summary": "面向大语言模型与多模态模型的微调框架，支持训练、推理、评测与量化。",
+    "links": [{"label": "论文主页", "url": "https://ojs.aaai.org/index.php/AAAI/article/view/35383"}, {"label": "arXiv 预印本", "url": "https://arxiv.org/abs/2408.05517"}, {"label": "项目代码", "url": "https://github.com/modelscope/ms-swift"}]
   },
   {
     "id": "twinkle-2026",
@@ -27,10 +27,10 @@
     "authors": ["PeiXiang Tan", "Kaiwen Wei", "Jialin Li", "Yuze Zhao", "Yunlin Mao", "Jinhan Hu"],
     "year": "2026",
     "type": "manuscript",
-    "venue": "AAAI 2027 Demonstration Program · 投稿记录",
-    "status": "投稿",
-    "summary": "面向多租户后训练的可组合训练即服务基础设施。",
-    "links": [{"label": "OpenReview 个人记录", "url": "https://openreview.net/profile?id=%7EYunlin_Mao1"}, {"label": "代码", "url": "https://github.com/modelscope/twinkle"}]
+    "venue": "AAAI 2027 Demonstration Program",
+    "status": "已投稿",
+    "summary": "面向多租户后训练场景，提供可组合的训练服务基础设施。",
+    "links": [{"label": "OpenReview 主页", "url": "https://openreview.net/profile?id=%7EYunlin_Mao1"}, {"label": "项目代码", "url": "https://github.com/modelscope/twinkle"}]
   },
   {
     "id": "lens-2026",
@@ -38,10 +38,10 @@
     "authors": ["Xingjun Wang", "Gongsheng Li", "Qi Fan", "Yunlin Mao", "Luyan Su", "Yingda Chen"],
     "year": "2026",
     "type": "manuscript",
-    "venue": "arXiv 2026 · AAAI 2027 投稿记录",
-    "status": "预印本 / 投稿",
-    "summary": "围绕动态原始文档，在查询条件下探索和定位证据，研究无需预先建立持久索引的上下文搜索。",
-    "links": [{"label": "arXiv", "url": "https://arxiv.org/abs/2608.16185"}, {"label": "OpenReview 个人记录", "url": "https://openreview.net/profile?id=%7EYunlin_Mao1"}]
+    "venue": "arXiv 2026 · AAAI 2027 投稿",
+    "status": "预印本",
+    "summary": "研究动态文档中的上下文搜索，通过探索潜在证据定位相关内容。",
+    "links": [{"label": "arXiv 预印本", "url": "https://arxiv.org/abs/2608.16185"}, {"label": "OpenReview 主页", "url": "https://openreview.net/profile?id=%7EYunlin_Mao1"}]
   },
   {
     "id": "modelscope-2024",
@@ -49,10 +49,10 @@
     "authors": ["Yingda Chen", "Wenmeng Zhou", "Daoyuan Chen", "Dawei Gao", "Zihao Hu", "Hongda Huang", "Jiayi Li", "Minjun Liang", "Yunlin Mao", "Jinkai Wang", "Xingjun Wang", "Yuze Zhao", "Zhicheng Zhang", "Jingren Zhou"],
     "year": "2024",
     "type": "manuscript",
-    "venue": "AAAI 2025 · 投稿记录（2024）",
-    "status": "投稿记录",
-    "summary": "从开源视角讨论云原生的模型即服务。",
-    "links": [{"label": "OpenReview 个人记录", "url": "https://openreview.net/profile?id=%7EYunlin_Mao1"}]
+    "venue": "AAAI 2025（2024 年投稿）",
+    "status": "历史投稿",
+    "summary": "从开源平台的角度讨论云原生模型即服务（Model-as-a-Service）。",
+    "links": [{"label": "OpenReview 主页", "url": "https://openreview.net/profile?id=%7EYunlin_Mao1"}]
   },
   {
     "id": "alignment-2023",
@@ -60,10 +60,10 @@
     "authors": ["Jiangzhou Ju", "Yunlin Mao", "Zhen Wu", "Robert Ridley", "Bin Wang", "Jianbing Zhang", "Xinyu Dai", "Jiajun Chen"],
     "year": "2023",
     "type": "manuscript",
-    "venue": "ACM MM 2023 · 投稿记录",
-    "status": "投稿记录",
-    "summary": "探索图表问答中的弱监督对齐建模。",
-    "links": [{"label": "OpenReview 个人记录", "url": "https://openreview.net/profile?id=%7EYunlin_Mao1"}]
+    "venue": "ACM MM 2023",
+    "status": "历史投稿",
+    "summary": "研究通过弱监督学习对齐问题与图表信息的方法，用于图表问答。",
+    "links": [{"label": "OpenReview 主页", "url": "https://openreview.net/profile?id=%7EYunlin_Mao1"}]
   },
   {
     "id": "finqa-2022",
@@ -73,7 +73,7 @@
     "type": "manuscript",
     "venue": "arXiv / CoRR 2022",
     "status": "预印本",
-    "summary": "结合细粒度检索器与多生成器集成，处理金融文本和表格中的数值推理问答。",
-    "links": [{"label": "arXiv", "url": "https://arxiv.org/abs/2206.08506"}, {"label": "OpenReview 个人记录", "url": "https://openreview.net/profile?id=%7EYunlin_Mao1"}]
+    "summary": "结合细粒度检索与多个生成模型，完成金融文本和表格中的数值推理问答。",
+    "links": [{"label": "arXiv 预印本", "url": "https://arxiv.org/abs/2206.08506"}, {"label": "OpenReview 主页", "url": "https://openreview.net/profile?id=%7EYunlin_Mao1"}]
   }
 ]

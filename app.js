@@ -21,7 +21,7 @@ filterButtons.forEach(button => button.addEventListener('click', () => {
   filterButtons.forEach(item => item.setAttribute('aria-pressed', String(item === button)));
   projects.forEach(project => { project.hidden = filter !== 'all' && project.dataset.category !== filter; });
   const count = projects.filter(project => !project.hidden).length;
-  document.getElementById('filter-status').textContent = `显示${filter === 'all' ? '全部' : button.textContent.trim()} ${count} 个项目`;
+  document.getElementById('filter-status').textContent = `显示 ${count} 个${filter === 'all' ? '开源项目' : button.textContent.trim()+'项目'}`;
 }));
 document.getElementById('year').textContent = new Date().getFullYear();
 
@@ -53,5 +53,5 @@ paperFilters.forEach(button => button.addEventListener('click', () => {
   paperFilters.forEach(item => item.setAttribute('aria-pressed', String(item === button)));
   papers.forEach(paper => { paper.hidden = filter !== 'all' && paper.dataset.publicationType !== filter; });
   const count = papers.filter(paper => !paper.hidden).length;
-  document.querySelector('#paper-status').textContent = `显示 ${count} 条学术记录`;
+  document.querySelector('#paper-status').textContent = `显示 ${count} 篇论文`;
 }));
