@@ -25,6 +25,6 @@
 - [EvalScope](https://github.com/modelscope/evalscope)、[文档](https://evalscope.readthedocs.io/zh-cn/latest/)
 - [Twinkle](https://github.com/modelscope/twinkle)、[中文文档](https://modelscope.github.io/twinkle-web/zh/docs/)
 - [ms-swift](https://github.com/modelscope/ms-swift)、[中文文档](https://swift.readthedocs.io/zh-cn/latest/)：作为开源项目展示及 SWIFT 论文代码入口；本人提交记录使用 `author=Yunnglin` 过滤。
-- ms-swift 项目图使用官方仓库的 [banner](https://github.com/modelscope/ms-swift/blob/main/asset/banner.png)，保留原始比例。
+- 三个项目的展示图均为本站绘制的流程示意，统一使用深色网格与浅绿色线条；不作为官方 Logo 或实际运行截图。EvalScope 图表仅为流程示意，不代表实测数据。ms-swift 展示图不再使用白底官方 banner。
 
 个人参与依据本人说明；项目能力采用官方介绍。个人提交链接使用 GitHub 作者过滤，不将项目整体成果或第三方案例数字写成个人业绩。

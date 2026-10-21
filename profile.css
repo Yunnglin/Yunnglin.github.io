@@ -8,7 +8,15 @@
 /* Three peer projects, readable body text, and larger interaction targets. */
 .project-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
 .project { display: flex; flex-direction: column; }
-.project-visual { height: 244px; flex-shrink: 0; padding-inline: 20px; }
+.project-visual {
+  --bg: #111810; --text: #f1f2ec; --muted: #a8b69e;
+  --line: #34432d; --accent: #d0f59b;
+  height: 244px; flex-shrink: 0; padding-inline: 20px; color: var(--text);
+  background-color: #182015;
+  background-image: radial-gradient(ellipse at 50% 35%, #d0f59b0c, transparent 72%), linear-gradient(#a3c18a0a 1px, transparent 1px), linear-gradient(90deg, #a3c18a0a 1px, transparent 1px);
+  background-size: auto, 32px 32px, 32px 32px;
+  border-bottom: 1px solid #34432d;
+}
 .project-body { display: flex; flex: 1; flex-direction: column; padding: 24px 22px 20px; }
 .project h3 { font-size: 26px; }
 .project-subtitle { font-size: 15px; line-height: 1.8; min-height: 54px; margin-block: 16px 10px; }
@@ -22,12 +30,11 @@
 .flow-row > span:nth-child(odd) { padding-inline: 5px; }
 .chart { height: 57px; }
 .chart-bars { gap: 8px; }
-.twinkle-demo { left: 9%; right: 9%; top: 53px; bottom: 25px; }
+.twinkle-demo, .swift-demo { position: absolute; left: 9%; right: 9%; top: 53px; bottom: 25px; }
 .client-row, .backend-row { gap: 17px; }
-.swift-visual { background: var(--visual2); }
-.swift-brand { position: absolute; left: 8%; right: 8%; top: 72px; margin: 0; padding: 12px; background: #fff; border-radius: 4px; }
-.swift-brand img { display: block; width: 100%; height: auto; }
-.swift-visual-caption { position: absolute; inset: auto 16px 43px; margin: 0; text-align: center; color: var(--muted); font-size: 11px; }
+.swift-demo .backend-row { gap: 8px; }
+.swift-demo .backend-row span { font-size: 8px; padding-inline: 2px; }
+.swift-symbol { display: grid; place-items: center; width: 34px; height: 34px; border: 1px solid var(--accent); border-radius: 7px; color: var(--accent); font-size: 29px; line-height: 1; }
 .filters { flex-wrap: wrap; }
 .filters button { min-height: 40px; font-size: 12px; }
 .theme-toggle, .menu-toggle { width: 44px; height: 44px; flex-shrink: 0; }
@@ -53,9 +60,7 @@
   .project-visual { height: 100%; min-height: 300px; }
   .project-subtitle { min-height: 0; }
   .eval-demo { top: 50%; bottom: auto; height: 185px; transform: translateY(-50%); }
-  .twinkle-demo { top: 50%; bottom: auto; height: 190px; transform: translateY(-50%); }
-  .swift-brand { top: 50%; transform: translateY(-50%); }
-  .swift-visual-caption { bottom: 45px; }
+  .twinkle-demo, .swift-demo { top: 50%; bottom: auto; height: 190px; transform: translateY(-50%); }
 }
 @media (max-width: 760px) {
   .project-grid { grid-template-columns: 1fr; }
@@ -64,9 +69,7 @@
   .project-subtitle { min-height: 0; }
   .eval-demo { left: 9%; right: 9%; top: 52px; bottom: 29px; }
   .chart { height: 67px; }
-  .twinkle-demo { left: 12%; right: 12%; top: 56px; bottom: 30px; }
-  .swift-brand { top: 77px; }
-  .swift-visual-caption { bottom: 45px; }
+  .twinkle-demo, .swift-demo { left: 12%; right: 12%; top: 56px; bottom: 30px; }
   .project-description, .focus-grid p, .about-copy p, .publication-intro { font-size: 14px; }
   .paper-authors { font-size: 12px; }
   .paper-summary { font-size: 14px; }
