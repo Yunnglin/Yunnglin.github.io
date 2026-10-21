@@ -11,7 +11,7 @@
 ## 更新内容
 
 - 个人介绍、项目和教育背景：编辑 `index.html`。
-- 论文：编辑 `publications.json`，然后运行 `node scripts/render-publications.mjs`。
+- 论文：编辑 `publications.json`，然后运行 `node scripts/render-publications.mjs`；按年份倒序展示，同年保留数据中的排列顺序。
 - 样式：编辑 `styles.css`。
 - 交互：编辑 `app.js`。
 

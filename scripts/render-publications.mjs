@@ -2,7 +2,8 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-const papers = JSON.parse(fs.readFileSync(path.join(root, 'publications.json'), 'utf8'));
+const papers = JSON.parse(fs.readFileSync(path.join(root, 'publications.json'), 'utf8'))
+  .sort((a, b) => Number(b.year) - Number(a.year));
 const escape = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const link = item => {
   const url = new URL(item.url);
